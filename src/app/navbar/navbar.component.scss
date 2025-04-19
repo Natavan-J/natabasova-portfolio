@@ -1,0 +1,29 @@
+.navigation-links {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-text) !important;
+  padding: 0;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-left: auto;
+}
+
+.social-icons a i {
+  font-size: 1rem;
+  color: var(--primary-text);
+}
+
+.social-icons a i:hover {
+  color: #49557a;
+}

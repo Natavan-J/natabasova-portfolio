@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  /* Base Colors */
+  --background: #faf3eb;
+  --primary-text: #38488d;
+  --card-bg: #faf7f2;
+}
+
+/* setting font */
+:root {
+  --font-main: "Baloo Bhaijaan 2", sans-serif;
+}
+
+body {
+  font-family: var(--font-main) !important;
+  background-color: var(--background) !important;
+}
