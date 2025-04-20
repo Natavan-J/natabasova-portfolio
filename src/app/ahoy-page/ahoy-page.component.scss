@@ -1,21 +1,21 @@
 .board {
   width: 30rem;
-  padding-left: 5rem;
+  padding-left: 8rem;
   padding-bottom: 3rem;
 
   @media (max-width: 1200px) {
     width: 28rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
 
   @media (max-width: 768px) {
     width: 22rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
 
   @media (max-width: 576px) {
     width: 18rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
 }
 
@@ -28,6 +28,7 @@
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
+
 @keyframes swing {
   0% {
     transform: rotate(2deg);
@@ -50,6 +51,8 @@
   z-index: 10;
   animation: swing 4s ease-in-out infinite;
   transform-origin: top center;
+
+  pointer-events: none;
 }
 
 @media (max-width: 1040px) {
@@ -58,6 +61,8 @@
     right: 100px;
     transform: none;
     width: 180px;
+
+    pointer-events: none;
   }
 }
 
@@ -65,5 +70,27 @@
   .koala-img {
     right: 60px;
     width: 140px;
+
+    pointer-events: none;
+  }
+}
+.hello-illustration {
+  width: 100%;
+  max-width: 600px;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+.hello-illustration svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hello-illustration {
+    max-width: 400px;
+    padding-left: 4rem;
+    padding-right: 1rem;
   }
 }
