@@ -1,0 +1,30 @@
+img {
+  width: 30rem;
+  padding-left: 5rem;
+  padding-bottom: 3rem;
+
+  @media (max-width: 1200px) {
+    width: 28rem;
+    padding-left: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 22rem;
+    padding-left: 2rem;
+  }
+
+  @media (max-width: 576px) {
+    width: 18rem;
+    padding-left: 3rem;
+  }
+}
+
+.content {
+  margin-top: 3rem;
+  background-color: var(--card-bg) !important;
+  padding: 5rem 5rem;
+  color: var(--primary-text) !important;
+
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
